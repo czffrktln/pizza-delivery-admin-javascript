@@ -1,0 +1,14 @@
+{
+  "pizzaProduct": "Kosár\n• 1 db Bolognai pizza      2 490 Ft\n• 1 db California pizza      2 490 Ft\n• 1 db Celentano pizza      2 390 Ft\n• 2 db Hawaii pizza      4 780 Ft\n• 1 db Verona pizza      2 190 Ft\nÖsszesen: 14 340 Ft",
+  "customerData": {
+    "name": "Ned Stark",
+    "zipcode": "7895",
+    "city": "Deres",
+    "street": "Havas utca",
+    "houseNum": "1",
+    "phoneNum": "+78948525690",
+    "email": "nedstark@westeros.hu"
+  },
+  "timeOfOrder": "2022-11-07T16:01:53.755Z",
+  "status": "rendelés teljesítve"
+}

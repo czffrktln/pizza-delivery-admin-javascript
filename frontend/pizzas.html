@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <h1>Pizzeria della Nonna di Mario - admin</h1>
+    <div class="navLinks">
+      <a href="orders.html">Rendelések</a>
+      <a href="pizzas.html"><u>Pizzák szerkesztése</u></a>
+  </nav>
+
+  <main id="pizzas">
+    <h2>Új pizza hozzáadása</h2>
+    <div id="newPizza">
+      <input type="text" id="newPizzaId" placeholder="Új pizza azonosítója (ne írj ékezetes betűket)">
+      <input type="text" id="newPizzaName" placeholder="Új pizza neve">
+      <input type="text" id="newPizzaIngredients" placeholder="Új pizza alapanyagai">
+      <input type="number" id="newPizzaPrice" placeholder="Új pizza ára">
+      <input type="file" id="newPizzaImg" placeholder="Új pizza képe">
+      <button type="submit" id="newPizzaButton">Mentés</button>
+    </div>
+    <h2>Pizzák</h2>
+    <div id="pizzaCardContainer">
+    </div>
+  </main>
+
+  <script src="pizzas.js"></script>
+</body>
+
+</html>

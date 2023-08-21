@@ -1,0 +1,14 @@
+{
+  "pizzaProduct": "Kosár\n• 1 db Bolognai pizza      2 490 Ft\n• 1 db California pizza      2 490 Ft\n• 1 db Celentano pizza      2 390 Ft\n• 1 db Hawaii pizza      2 390 Ft\n• 1 db Hústorony pizza      2 290 Ft\n• 1 db Nápoly pizza      2 290 Ft\n• 1 db Verona pizza      2 190 Ft\n• 1 db Extra húsos pizza      7 490 Ft\nÖsszesen: 24 020 Ft",
+  "customerData": {
+    "name": "Arya Stark",
+    "zipcode": "9875",
+    "city": "Csavargó",
+    "street": "Nincs",
+    "houseNum": "1",
+    "phoneNum": "+6984654651",
+    "email": "arya@deres.ws"
+  },
+  "timeOfOrder": "2022-11-07T16:36:30.991Z",
+  "status": "szállítás alatt"
+}

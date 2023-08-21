@@ -1,0 +1,14 @@
+{
+  "pizzaProduct": "Kosár\n• 3 db Bolognai pizza      7 470 Ft\n• 1 db Celentano pizza      2 390 Ft\nÖsszesen: 9 860 Ft",
+  "customerData": {
+    "name": "Éjkirály",
+    "zipcode": "9999",
+    "city": "Észak",
+    "street": "Jeges utca",
+    "houseNum": "1",
+    "phoneNum": "+64968498",
+    "email": "twewetw@wetwet.hu"
+  },
+  "timeOfOrder": "2022-11-07T16:19:16.230Z",
+  "status": "szállítás alatt"
+}

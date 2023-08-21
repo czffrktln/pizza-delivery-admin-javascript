@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #363c4f;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  align-items: center;
+  background-color: #ff6b01;
+  padding: 2rem;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  margin-left: 2rem;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.2rem;
+}
+
+.pizzaCard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em 0;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 2px rgb(222, 222, 222);
+  padding: 1.5rem;
+}
+
+.pizzaImageName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pizzaCard:hover {
+  background-color: #f7f7f7;
+}
+
+.pizzaCard img {
+  margin-right: 2em;
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+
+.pizzaCard .inputName {
+  font-size: 1.5rem;
+}
+
+
+.pizzaCard .inputIngred {
+  width: 100%;
+}
+
+.pizzaCard .inputPrice {
+  width: 7ch;
+  font-size: 1em;
+}
+
+#pizzaCardContainer {
+  margin: 0 3%;
+  list-style: none;
+}
+
+.pizzaCard input {
+  border: none;
+  background-color: transparent;
+  color: rgb(37, 37, 37);
+}
+
+.pizzaCard input:enabled {
+  border: 2px solid rgb(85, 85, 85);
+  border-radius: 5px;
+  color:rgb(85, 85, 85);
+}
+
+.modify,
+.delete,
+.status {
+  border: none;
+  background-color: #ff6b01;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.inside {
+  pointer-events: none;
+}
+
+.status {
+  padding: 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.modify img,
+.delete img {
+  width: 45px;
+  height: 45px;
+  filter: invert(100%);
+}
+
+.addContainer {
+  display: flex;
+}
+
+.addContainer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  letter-spacing: .05em;
+}
+
+.addContainer button img {
+  margin: 0;
+  padding: .2em;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .pizzaCard {
+      flex-wrap: wrap;
+      justify-content: flex-end;
+  }
+}
+
+/* orders */
+
+#orders .orderContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.orderCard {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-bottom: solid 1px black;
+}
+
+#newPizza {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 10px;
+}
+
+#newPizza input,
+#newPizza button {
+  padding: .5rem 1rem;
+  flex: 1;
+}
+
+
+#newPizzaButton {
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: .05em;
+  border: none;
+  background-color: #ff6b01;
+  border-radius: 10px;
+}
+
+.ordersHeader {
+  border-bottom: solid 1px black;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.ordersHeader div,
+.orderCard div {
+  border-right: solid 1px black;
+}

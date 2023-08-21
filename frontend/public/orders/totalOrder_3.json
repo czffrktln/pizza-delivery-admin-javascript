@@ -1,0 +1,14 @@
+{
+  "pizzaProduct": "Kosár\n• 1 db Nápoly pizza      2 290 Ft\n• 1 db Verona pizza      2 190 Ft\n• 1 db Extra húsos pizza      7 490 Ft\nÖsszesen: 11 970 Ft",
+  "customerData": {
+    "name": "Havas John",
+    "zipcode": "7895",
+    "city": "A fal",
+    "street": "Fal utca",
+    "houseNum": "1",
+    "phoneNum": "+526258484",
+    "email": "havasjohn@deres.hu"
+  },
+  "timeOfOrder": "2022-11-07T16:04:08.436Z",
+  "status": "szállítás alatt"
+}

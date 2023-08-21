@@ -1,0 +1,58 @@
+[
+    {
+        "id": "piz_bolognai",
+        "name": "Bolognai pizza",
+        "ingredients": "paradicsomos alap, bolognai ragu, mozzarella sajt",
+        "price": 2490,
+        "status": "active",
+        "imgUrl": "/public/img/Bolognai.jpg"
+    },
+    {
+        "id": "piz_california",
+        "name": "California pizza",
+        "ingredients": "paradicsomos alap, sonka, kukorica, gomba, mozzarella sajt",
+        "price": 2490,
+        "status": "active",
+        "imgUrl": "/public/img/California.jpg"
+    },
+    {
+        "id": "piz_celentano",
+        "name": "Celentano pizza",
+        "ingredients": "paradicsomos alap, bacon, gomba, kukorica, brokkoli, tejfölös öntet, mozzarella sajt",
+        "price": 2390,
+        "status": "active",
+        "imgUrl": "/public/img/Celentano.jpg"
+    },
+    {
+        "id": "piz_hawaii",
+        "name": "Hawaii pizza",
+        "ingredients": "paradicsomos alap, sonka, kukorica, ananász, mozzarella sajt",
+        "price": 2390,
+        "status": "active",
+        "imgUrl": "/public/img/Hawaii.jpg"
+    },
+    {
+        "id": "piz_hustorony",
+        "name": "Hústorony pizza",
+        "ingredients": "paradicsomos alap, sonka, szalámi, csirke, csülök, kolbász, füstölt sajt",
+        "price": 2290,
+        "status": "active",
+        "imgUrl": "/public/img/Hustorony.jpg"
+    },
+    {
+        "id": "piz_napoly",
+        "name": "Nápoly pizza",
+        "ingredients": "tejszínes alap, bacon, csirke, ananász, kukorica, mozzarella sajt",
+        "price": 2290,
+        "status": "active",
+        "imgUrl": "/public/img/Napoly.jpg"
+    },
+    {
+        "id": "piz_verona",
+        "name": "Verona pizza",
+        "ingredients": "tejfölös alap, csirke, gomba, kukorica, bacon, mozzarella sajt",
+        "price": 2190,
+        "status": "active",
+        "imgUrl": "/public/img/Verona.jpg"
+    }
+]

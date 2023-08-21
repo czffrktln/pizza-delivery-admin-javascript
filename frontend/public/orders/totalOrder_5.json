@@ -1,0 +1,14 @@
+{
+  "pizzaProduct": "Kosár\n• 4 db Extra húsos pizza      29 960 Ft\nÖsszesen: 29 960 Ft",
+  "customerData": {
+    "name": "Joffrey",
+    "zipcode": "8754",
+    "city": "Királyvár",
+    "street": "Vár utca 1",
+    "houseNum": "84",
+    "phoneNum": "+884646664",
+    "email": "joffrey_king@kiralyvar.hu"
+  },
+  "timeOfOrder": "2022-11-07T16:30:08.558Z",
+  "status": "szállítás alatt"
+}

@@ -1,0 +1,14 @@
+{
+  "pizzaProduct": "Kosár\n• 1 db California pizza      2 490 Ft\n• 2 db Extra húsos pizza      14 980 Ft\nÖsszesen: 17 470 Ft",
+  "customerData": {
+    "name": "Beni",
+    "zipcode": "1115",
+    "city": "Budapest",
+    "street": "Titok",
+    "houseNum": "543",
+    "phoneNum": "+36804895950",
+    "email": "vucben99@gmail.com"
+  },
+  "timeOfOrder": "2022-11-07T15:59:06.324Z",
+  "status": "rendelés teljesítve"
+}
